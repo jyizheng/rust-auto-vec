@@ -1,0 +1,15 @@
+[package]
+authors = ["Yizheng Jiao <jyizheng@gmail.com>"]
+name = "auto_vec"
+version = "0.1.0"
+
+[dependencies]
+quote = "0.4"
+
+[dependencies.syn]
+features = ["full", "extra-traits"]
+version = "0.12"
+
+[lib]
+name = "auto_vec"
+proc-macro = true
