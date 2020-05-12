@@ -1,0 +1,4 @@
+Use the command below to test:
+
+cargo test  --  --nocapture
+
